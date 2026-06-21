@@ -192,12 +192,13 @@ footer {
 }
 
 .destaque-profissional {
-  grid-template-columns: 1fr;
-  padding: 30px 20px;
+  text-align: center;
 }
 
-.destaque-texto h2 {
-  font-size: 1.7rem;
+.destaque-profissional p {
+  max-width: 750px;
+  margin: 0 auto 30px;
+  font-size: 1.05rem;
 }
 
 /* MOBILE */
