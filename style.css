@@ -191,6 +191,14 @@ footer {
   margin: 0 auto;
 }
 
+.destaque-profissional {
+  grid-template-columns: 1fr;
+  padding: 30px 20px;
+}
+
+.destaque-texto h2 {
+  font-size: 1.7rem;
+}
 
 /* MOBILE */
 @media (max-width: 768px) {
@@ -205,5 +213,13 @@ footer {
 
   .hero h1 {
     font-size: 2rem;
+  }
+  .destaque-profissional {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+  }
+
+  .destaque-texto h2 {
+    font-size: 1.7rem;
   }
 }
